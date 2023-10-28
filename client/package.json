@@ -1,0 +1,41 @@
+{
+  "name": "client",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "bash env.sh && vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@intlify/unplugin-vue-i18n": "^1.0.1",
+    "@mdi/font": "7.2.96",
+    "@vuepic/vue-datepicker": "^6.0.3",
+    "@vueuse/core": "^10.5.0",
+    "axios": "^1.5.0",
+    "install": "^0.13.0",
+    "npm": "^10.0.0",
+    "pinia": "^2.1.7",
+    "roboto-fontface": "*",
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.3.0",
+    "vue-loading-overlay": "^6.0.3",
+    "vue-router": "^4.2.4",
+    "vuetify": "^v3.3.21",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.22.15",
+    "@types/node": "^20.5.9",
+    "@types/webfontloader": "^1.6.35",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.48.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue-tsc": "^1.8.10"
+  }
+}

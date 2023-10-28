@@ -1,0 +1,28 @@
+# Global
+*.env
+
+# Server-specific (Flask)
+/server/__pycache__/
+/server/*.py[cod]
+/server/instance/
+/server/.python-version
+/server/venv/
+/server/.venv/
+/server/.idea/
+/server/*.sqlite
+
+# Client-specific (Vue.js)
+/client/node_modules/
+/client/dist/
+/client/.env.*
+/client/.npm/
+/client/.yarn-cache
+/client/yarn-error.log
+/client/public/favicon.ico
+/client/public/img/icons
+/client/public/index.html
+/client/src/assets/logo.png
+
+# IDE-specific
+*.idea/
+.vscode/
